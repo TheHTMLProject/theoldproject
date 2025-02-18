@@ -59,15 +59,15 @@
 
     <div class="container">
         <label for="uname"><b>Username</b></label>
-        <input type="text" id="uname" placeholder="Username" name="uname" required>
+        <input type="text" id="uname" placeholder="Use thehtmlproject as the username" name="uname" required>
 
         <label for="psw"><b>Password</b></label>
-        <input type="password" id="psw" placeholder="Password" name="psw" required>
+        <input type="password" id="psw" placeholder="Use theoldproject as the password" name="psw" required>
 
         <button type="submit" onclick="checkCredentials()">Login</button>
         
         <!-- Added links -->
-        <strong><a href="form.html">Sign Up</a></strong>  <strong><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=PE1WzVoeIkqjzr5jFs7J_7rxW38_NJVGgrFkHwKPmghUQ0hWV0xIMVVaVU1YWTM5MTNCRjUySllNWi4u">Report Bug</a></strong>
+        <strong><a href="javascript:alert('You would click this to sign up for my website, and get credentials much like The Special Place does now. You can sign in using these credentials:  Username: thehtmlproject Password: theoldproject');">Sign Up</a></strong>  <strong><a href="javascript:alert('You can report a bug if you find one. You can still do this today!');">Report Bug</a></strong>
     </div>
 
     <script>
@@ -75,15 +75,15 @@
             var username = document.getElementById("uname").value;
             var password = document.getElementById("psw").value;
 
-            if((username == "Asher" && password == "pwd2logon") || (username == "#htmlgames" && password == "ivisitedthere") || (username == "Tara" && password == "taraT2023!") || (username == "Noah" && password == "12345") || (username == "temp138" && password == "temp138") || (username == "Jillian" && password == "jhzzokcir1") || (username == "somerandomexampleguy" && password== "deez")) {
+            if((username == "thehtmlproject" && password == "theoldproject")) {
                 window.location.href = "dashboard.html";
             } else {
-                alert("Incorrect username or password");
+                alert("Try Username: thehtmlproject Password: theoldproject");
                
             }
               }
         
     </script>
-    <h6>Questions? Contact us at <a href="mailto:htmlhelp@post.com">htmlhelp@post.com</a></h6>
+    <h6>Questions? Contact me at <a href="mailto:thehtmlprojecct@post.com">thehtmlproject@post.com</a></h6>
 </body>
 </html>
